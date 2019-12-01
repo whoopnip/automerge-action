@@ -1,5 +1,10 @@
 name: "Merge pull requests"
 description: "Automatically merge pull requests that are ready"
+outputs:
+  updated: 
+    description: 'Whether the pull request was updated'
+  merged:
+    description: 'Whether the pull request was merged'
 runs:
   using: "docker"
   image: "Dockerfile"
