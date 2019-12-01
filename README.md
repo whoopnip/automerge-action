@@ -158,6 +158,12 @@ You can configure the environment variables in the workflow file like this:
           UPDATE_METHOD: "rebase"
 ```
 
+## Outputs
+
+The following outputs are available:
+- `updated`: Whether the pull request was updated
+- `merged`: Whether the pull request was merged 
+
 ## Limitations
 
 - When a check from a build tools like Jenkins or CircleCI completes, GitHub
