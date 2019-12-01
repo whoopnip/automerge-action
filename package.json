@@ -15,6 +15,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@actions/core": "1.2.0",
     "@octokit/rest": "^16.33.1",
     "argparse": "^1.0.7",
     "fs-extra": "^8.1.0",
